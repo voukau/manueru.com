@@ -1,7 +1,7 @@
 * {
     margin: 0;
     color: rgb(226, 226, 226);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body {
@@ -11,12 +11,27 @@ body {
 }
 
 .container {
-    width: 700px;
+    width: 400px;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.thumb-index {
+    width: 180px;
 }
 
 hr {
     margin: 1rem 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Mini Pixel';
+}
+
+h4 {
+    margin: .5rem 0;
+    font-size: .75rem;
 }
