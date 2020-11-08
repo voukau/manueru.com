@@ -4,6 +4,11 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+@font-face {
+    font-family: 'Mini Pixel';
+    src: url('mini-pixel.ttf') format('truetype');
+}
+
 body {
     background-color: rgb(15, 15, 15);
     display: flex;
