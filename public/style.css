@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    color: rgb(226, 226, 226);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    margin: 1rem 0;
+}
